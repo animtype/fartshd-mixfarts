@@ -77,7 +77,7 @@ if (is_localhost()) {
 <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="shortcut icon" href="favicons/favicon.ico">
 <meta name="msapplication-config" content="favicons/browserconfig.xml">
-<link href="https://www.fartshd.com/fartshd.css" type="text/css" rel="stylesheet">
+<link href="https://fartshd.com/fartshd.css" type="text/css" rel="stylesheet">
 <link href="mix.css" type="text/css" rel="stylesheet">
 <script src="inc/jquery.js"></script>
 <script src="inc/transit.js"></script>
