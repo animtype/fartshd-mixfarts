@@ -1,0 +1,39 @@
+ErrorDocument 401 /401.shtml
+ErrorDocument 403 /403.shtml
+ErrorDocument 404 /404.shtml
+ErrorDocument 500 /500.shtml
+
+
+RewriteEngine On
+RewriteBase /
+RewriteRule samurai-fart ?mix=0xc8650d7fdabb40305ad811bd11f3beec0ff7ee8b2f64bd7d46e5929cb6aeac313dbe16b3d6fa61321e6957b22b58f464b10473ebe6ed2a907321adf151135137b930f415ff534dc749d04c8e217709115556af0cf4957376cbeae82d2ad00b6e124051c8f0b79abe9c918fc80c53f13bcbeae82d2ad00b6e3971bb147821358e079c21b6fca12f02c5b3117424fb99c2c5198421984f55a1c95b5fda114cd20c
+RewriteRule diarrhea ?mix=0x1a7da11c24bb445b060dea7e8db7f7a10ff7ee8b2f64bd7d46e5929cb6aeac313dbe16b3d6fa61321e6957b22b58f4647fba66f160dadf121ff4522f34e9894e37a93401840a6ed9602df8da072bca69b99804cfb6cf7589a393176f93388195e62cf24369972564d2fa0ca688d678f1f298d20c55da286513609b2fb3871f0f64072708f419b57ebf0faaf8d66390c6653dcd549e8ad956dbe8a1c720ca144dba69bf90195ab618e8681717f591c999
+RewriteRule arise ?mix=0xdab960040b9d3381ee4c5eacdac5f6c70ff7ee8b2f64bd7d46e5929cb6aeac313dbe16b3d6fa61321e6957b22b58f464602098b5de419ebe0c6f54af3caa5d16196b2702e4ec3c443535147626d0574650c5cf97279c93d53a78ba0be6aa60e7ba66c4a77afb706b65d808468e849395eb32cccc1464cce3419595e549e6fcba1b820ab8695e7f446b41017a9aa17799cd070e7fa95c103f9d325714d0366b4415f226c2b97f2471a1d821f5100cf7bd231fa0a58846d76c
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
