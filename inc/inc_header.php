@@ -3,9 +3,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Farts HD">  
-<meta property="og:url" content="http://www.fartshd.com"> 
+<meta property="og:url" content="https://www.fartshd.com"> 
 <meta property="og:title" content="Farts HD">
-<meta property="og:image" content="http://www.fartshd.com/images/promo_s4.png">
+<meta property="og:image" content="https://www.fartshd.com/images/promo_s4.png">
 <meta property="og:description" content="A rambunctious app to waft away the most serious of days. Farts HD is perfect for connoisseurs or amateur farters, providing a smorgasbord of fart sounds for all occasions"> 
 <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">

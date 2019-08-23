@@ -14,10 +14,10 @@ $ogtitle = "FartsHD";
 $which_status = 0;
 
 $mix_string = "%3Fmix%3D";
-$encoded_url = "http%3A%2F%2Fmix.fartshd.com%2F";
+$encoded_url = "https%3A%2F%2Fmix.fartshd.com%2F";
 $ogtitle = "FartsHD";
 $encoded_msg = "A%20rambunctious%20app%20to%20waft%20away%20the%20most%20serious%20of%20days *** ";
-$share_img = "http://mix.fartshd.com/img/fartshd-mix.jpg";
+$share_img = "https://mix.fartshd.com/img/fartshd-mix.jpg";
 
 if ( strlen($urlmix) < 10) {
 	//echo "skip";
@@ -66,7 +66,7 @@ if (is_localhost()) {
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Farts HD">  
-<meta property="og:url" content="http://mix.fartshd.com/<?php echo $get; ?>"> 
+<meta property="og:url" content="https://mix.fartshd.com/<?php echo $get; ?>"> 
 <meta property="og:title" content="<?php echo $ogtitle ?>">
 <meta property="og:image" content="<?php echo $share_img ?>"> 
 <meta property="og:description" content="A rambunctious app to waft away the most serious of days. Farts HD is perfect for connoisseurs or amateur farters, providing a smorgasbord of fart sounds for all occasions"> 
@@ -77,7 +77,7 @@ if (is_localhost()) {
 <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="shortcut icon" href="favicons/favicon.ico">
 <meta name="msapplication-config" content="favicons/browserconfig.xml">
-<link href="http://www.fartshd.com/fartshd.css" type="text/css" rel="stylesheet">
+<link href="https://www.fartshd.com/fartshd.css" type="text/css" rel="stylesheet">
 <link href="mix.css" type="text/css" rel="stylesheet">
 <script src="inc/jquery.js"></script>
 <script src="inc/transit.js"></script>
@@ -88,7 +88,7 @@ var app = new Object();
 app.app_mix = new Object();
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49881656-2"></script>
+<script async src="httpss://www.googletagmanager.com/gtag/js?id=UA-49881656-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -127,10 +127,10 @@ Easy to use, intuitive, colourful, no adverts and lots of fun for all the family
 </p>
 <p style="text-align: center;">
 
-	<a href="http://fartshd.com/app/" title="Farts HD on smartphone" class="btn" style="background-image: url(img/smartphone.png)"><span class="new"></span></a>
-	<a href="http://fartshd.com/app/" title="Farts HD on desktop" class="btn" style="background-image: url(img/desktop.png)"><span class="new"></span></a>	
+	<a href="https://fartshd.com/app/" title="Farts HD on smartphone" class="btn" style="background-image: url(img/smartphone.png)"><span class="new"></span></a>
+	<a href="https://fartshd.com/app/" title="Farts HD on desktop" class="btn" style="background-image: url(img/desktop.png)"><span class="new"></span></a>	
     <a href="https://play.google.com/store/apps/details?id=com.animtypecom.fartshd" title="Farts HD on Google Play" target="_blank" class="btn" style="background-image: url(img/google.png)"><span class="old"></span></a>
-    <a href="https://www.facebook.com/pages/Farts-HD/1446433675580200" title="Smart HD on Facebook" target="_blank" class="btn" style="background-image: url(img/facebook.png)"></a>
+
 
 </p>
 <?php /*
