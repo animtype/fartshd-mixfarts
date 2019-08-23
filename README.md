@@ -1,4 +1,4 @@
-# FartsHD APP and webpage
+# FartsHD MIX Farts
 A rambunctious webapp to waft away the most serious of days. Farts HD is perfect for connoisseurs or amateur farters, providing a smorgasbord of fart sounds for all occasions. Farts HD is free and without ads. Enjoy!
 
 # FartsHD webapp from 2012, and it still works like a charm.
